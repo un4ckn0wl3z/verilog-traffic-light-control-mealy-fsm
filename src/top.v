@@ -22,7 +22,7 @@ module top#( parameter clk_frequency = 27_000_000 )
 	reg [3:0] state;      
 	reg [3:0] next_state; 
 	
-	reg [32:0] timer; 
+	reg [31:0] timer; 
     reg       timer_clear;
 	
 	// Next state logic
