@@ -1,0 +1,32 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\User\Documents\GowinFPGA\fpga_traffic_light_fsm\src\top.v'
+WARN  (EX3801) : Parameter 'count_ms' becomes localparam in 'top' with formal parameter declaration list("C:\Users\User\Documents\GowinFPGA\fpga_traffic_light_fsm\src\top.v":11)
+WARN  (EX3801) : Parameter 'count_10000ms' becomes localparam in 'top' with formal parameter declaration list("C:\Users\User\Documents\GowinFPGA\fpga_traffic_light_fsm\src\top.v":12)
+WARN  (EX3801) : Parameter 'count_7000ms' becomes localparam in 'top' with formal parameter declaration list("C:\Users\User\Documents\GowinFPGA\fpga_traffic_light_fsm\src\top.v":13)
+WARN  (EX3801) : Parameter 'count_3000ms' becomes localparam in 'top' with formal parameter declaration list("C:\Users\User\Documents\GowinFPGA\fpga_traffic_light_fsm\src\top.v":14)
+WARN  (EX3801) : Parameter 'OFF' becomes localparam in 'top' with formal parameter declaration list("C:\Users\User\Documents\GowinFPGA\fpga_traffic_light_fsm\src\top.v":17)
+WARN  (EX3801) : Parameter 'RED' becomes localparam in 'top' with formal parameter declaration list("C:\Users\User\Documents\GowinFPGA\fpga_traffic_light_fsm\src\top.v":18)
+WARN  (EX3801) : Parameter 'YELLOW' becomes localparam in 'top' with formal parameter declaration list("C:\Users\User\Documents\GowinFPGA\fpga_traffic_light_fsm\src\top.v":19)
+WARN  (EX3801) : Parameter 'GREEN' becomes localparam in 'top' with formal parameter declaration list("C:\Users\User\Documents\GowinFPGA\fpga_traffic_light_fsm\src\top.v":20)
+Compiling module 'top'("C:\Users\User\Documents\GowinFPGA\fpga_traffic_light_fsm\src\top.v":1)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\User\Documents\GowinFPGA\fpga_traffic_light_fsm\impl\gwsynthesis\fpga_traffic_light_fsm.vg" completed
+[100%] Generate report file "C:\Users\User\Documents\GowinFPGA\fpga_traffic_light_fsm\impl\gwsynthesis\fpga_traffic_light_fsm_syn.rpt.html" completed
+GowinSynthesis finish

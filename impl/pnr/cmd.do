@@ -1,0 +1,13 @@
+-d C:\Users\User\Documents\GowinFPGA\fpga_traffic_light_fsm\impl\gwsynthesis\fpga_traffic_light_fsm.vg
+-p GW1NSR-4C-QFN48P-6
+-pn GW1NSR-LV4CQN48PC6/I5
+-cst C:\Users\User\Documents\GowinFPGA\fpga_traffic_light_fsm\src\fpga_traffic_light_fsm.cst
+-cfg C:\Users\User\Documents\GowinFPGA\fpga_traffic_light_fsm\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
+-global_freq 50.000

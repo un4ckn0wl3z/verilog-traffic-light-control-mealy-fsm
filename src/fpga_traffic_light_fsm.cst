@@ -1,0 +1,18 @@
+//Copyright (C)2014-2024 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//Tool Version: V1.9.9.03 Education (64-bit)
+//Part Number: GW1NSR-LV4CQN48PC6/I5
+//Device: GW1NSR-4C
+//Created Time: Sun 09 22 21:04:00 2024
+
+IO_LOC "green" 27;
+IO_PORT "green" IO_TYPE=LVCMOS25 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=2.5;
+IO_LOC "yellow" 29;
+IO_PORT "yellow" IO_TYPE=LVCMOS25 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=2.5;
+IO_LOC "red" 28;
+IO_PORT "red" IO_TYPE=LVCMOS25 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=2.5;
+IO_LOC "rst_n" 15;
+IO_PORT "rst_n" IO_TYPE=LVCMOS18 PULL_MODE=UP BANK_VCCIO=1.8;
+IO_LOC "sys_clk" 45;
+IO_PORT "sys_clk" IO_TYPE=LVCMOS18 PULL_MODE=UP BANK_VCCIO=1.8;
